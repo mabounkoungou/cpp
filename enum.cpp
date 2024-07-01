@@ -2,8 +2,8 @@
 using namespace std;
 
 enum Level {
-  LOW = 2,
-  MEDIUM,
+  LOW,
+  MEDIUM = 3,
   HIGH,
 };
 
