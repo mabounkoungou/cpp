@@ -1,15 +1,25 @@
 #include <iostream>
 using namespace std;
 
-enum Level{
-    LOW = 10,
-    MEDIUM = 20,
-    HIGH = 30
+enum Level {
+  LOW = 1,
+  MEDIUM,
+  HIGH
 };
 
-int main(){
-    enum Level varaible_x = MEDIUM;
-    cout << "Value of varaible_x: " << varaible_x << endl;
+int main() {
+  enum Level myVar = MEDIUM;
 
-    return 0;
+  switch (myVar) {
+    case 1:
+      printf("Low Level");
+      break;
+    case 2:
+      printf("Medium level");
+      break;
+    case 3:
+      printf("High level");
+      break;
+  }
+  return 0;
 }
