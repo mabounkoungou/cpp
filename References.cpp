@@ -8,4 +8,6 @@ int main(){
 
     cout << "Original car: " << car << endl;
     cout << "Reference to car: " << vehicle << endl;
+    
+    return 0;
 }
