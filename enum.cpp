@@ -9,7 +9,7 @@ int main(){
 
     *ptr = "Honda";
     //DEREFERENCING
-    cout << "Memory Address is :"<<" "<< car ;
+    cout << "Memory Address is :"<<" "<< car << endl;
     cout << "Memory Address with pointer is :"<<" "<< *ptr;
     
     return 0;
