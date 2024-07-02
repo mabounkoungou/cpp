@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 
-void Function_1 (float name){
-    cout << "Hello, " << name << "!" << endl;
+void MyFunction(string car = "G Wagon"){
+    cout << "Car is :" << " " <<endl;
 }
 
 int main(){
-    Function_1(1);
-    Function_1(2);
-    return 0;
+    MyFunction("Ford");
+    MyFunction("BMW");
+    MyFunction();
+    MyFunction("Mercedes Benz");
 }
