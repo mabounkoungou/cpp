@@ -2,7 +2,7 @@
 using namespace std;
 
 void MyFunction(string car = "G Wagon"){
-    cout << "Car is :" << " " <<endl;
+    cout << "Car is :" << " "<< car <<endl;
 }
 
 int main(){
