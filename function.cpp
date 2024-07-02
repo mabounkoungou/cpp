@@ -2,7 +2,7 @@
 using namespace std;
 
 void MyFunction(string car = "Cheverolet", int year = 2024){
-    cout << "Car is :" << " "<< car << "and year is " << year <<endl;
+    cout << "Car is :" << " "<< car << " and year is " << year <<endl;
 }
 
 int main(){
