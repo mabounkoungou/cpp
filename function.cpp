@@ -1,7 +1,9 @@
+//Pass By Reference
+
+
 #include <iostream>
 using namespace std;
 
-void MyFunction(int x, int y){
-    return x + y;
+void SwapByReference(int &x, int &y ){
 
 }
