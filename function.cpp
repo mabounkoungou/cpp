@@ -11,3 +11,13 @@ void SwapByReference(int &x, int &y ){
     y = swap;
 
 }
+
+
+
+int main() {
+    int FNum = 10;
+    int SNum = 20;
+    
+    cout << " Before Swap:" <<"First Number is: " << FNum << "Second Number is: " << SNum << endl;
+    
+}
